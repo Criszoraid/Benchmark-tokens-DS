@@ -1,0 +1,101 @@
+[
+  {
+    "Design System":"Aura",
+    "Colecciones de Variables":"Solo UNA: Aura",
+    "Variables de Color":"Tiene colores (sin primarios específicos)",
+    "Variables de Texto\/Typography":"NO (solo estilos)",
+    "Variables Numéricas":"Spacing, radius",
+    "Estilos (Styles)":"Sombras, Texto",
+    "Metadatos":"SIN metadatos ni descripción",
+    "Features":"Archivo pesado",
+    "Observaciones":"Simple, una colección. Problemas de rendimiento"
+  },
+  {
+    "Design System":"Untitled UI",
+    "Colecciones de Variables":"Color Tokens, Colors, Padding, Radius, Screen Size, Spacing Primitives",
+    "Variables de Color":"Color Tokens, Colors",
+    "Variables de Texto\/Typography":"NO (solo estilos)",
+    "Variables Numéricas":"Padding, Radius, Screen Size, Spacing Primitives",
+    "Estilos (Styles)":"Texto",
+    "Metadatos":"SIN metadatos",
+    "Features":"Iconos IA",
+    "Observaciones":"Buena separación primitivas\/tokens. Falta documentación"
+  },
+  {
+    "Design System":"Ant Design System",
+    "Colecciones de Variables":"Color, Color Primitives, Responsive, Size, Typography, Typography Primitives",
+    "Variables de Color":"Color, Color Primitives (separación clara)",
+    "Variables de Texto\/Typography":"SI - Typography y Typography Primitives",
+    "Variables Numéricas":"Responsive, Size",
+    "Estilos (Styles)":"Texto",
+    "Metadatos":"CON metadatos, code syntax y descripción",
+    "Features":"IA Chat",
+    "Observaciones":"Sistema MÁS completo y documentado. Separación primitives\/semantic clara"
+  },
+  {
+    "Design System":"Simple Design System",
+    "Colecciones de Variables":"Border, Color, Radius, Responsive, Spacing, Typography, Typography text styles",
+    "Variables de Color":"Color",
+    "Variables de Texto\/Typography":"SI - Typography, Typography text styles",
+    "Variables Numéricas":"Border, Radius, Responsive, Spacing",
+    "Estilos (Styles)":"Texto",
+    "Metadatos":"Code syntax pero SIN descripción",
+    "Features":null,
+    "Observaciones":"Bien organizado. Tiene code syntax. Falta descripción"
+  },
+  {
+    "Design System":"Material 3 (M3)",
+    "Colecciones de Variables":"M3, Typescale, Font theme, Shape",
+    "Variables de Color":"M3",
+    "Variables de Texto\/Typography":"SI - Typescale, Font theme",
+    "Variables Numéricas":"Shape",
+    "Estilos (Styles)":"Texto",
+    "Metadatos":"SIN metadatos",
+    "Features":"IA Chat",
+    "Observaciones":"Oficial de Google. Buena separación conceptual. Falta documentación inline"
+  },
+  {
+    "Design System":"Carbon Design System",
+    "Colecciones de Variables":"Layers, Theme, AI, Aside, Breakpoint, Color palette, Data, Modal, Radius... (muchas)",
+    "Variables de Color":"Color palette, Theme",
+    "Variables de Texto\/Typography":"NO (solo estilos)",
+    "Variables Numéricas":"Breakpoint, Radius, Spacing",
+    "Estilos (Styles)":"Texto",
+    "Metadatos":"SIN metadatos",
+    "Features":"IA",
+    "Observaciones":"Sistema extenso IBM. Muchas colecciones especializadas. Buena granularidad"
+  },
+  {
+    "Design System":"Sistema Diseany IADG",
+    "Colecciones de Variables":"Components, Modules, Theme",
+    "Variables de Color":"Theme (primarios DENTRO)",
+    "Variables de Texto\/Typography":"NO (solo estilos)",
+    "Variables Numéricas":"En Components",
+    "Estilos (Styles)":"Texto",
+    "Metadatos":"SIN metadatos",
+    "Features":null,
+    "Observaciones":"Organización por componentes. Primarios mezclados con theme"
+  },
+  {
+    "Design System":"ADS Foundations",
+    "Colecciones de Variables":"Colors, Dimensions, Typography, Components",
+    "Variables de Color":"Colors",
+    "Variables de Texto\/Typography":"SI - Typography",
+    "Variables Numéricas":"Dimensions",
+    "Estilos (Styles)":"Texto",
+    "Metadatos":"No verificable",
+    "Features":null,
+    "Observaciones":"Estructura clásica clara. Separación por tipo de token"
+  },
+  {
+    "Design System":"Sistema sin nombre",
+    "Colecciones de Variables":"NO tiene variables",
+    "Variables de Color":"NO (solo estilos)",
+    "Variables de Texto\/Typography":"NO (solo estilos)",
+    "Variables Numéricas":"NO (solo estilos)",
+    "Estilos (Styles)":"Colores, Texto, Efectos (Focus, Shadow, Blur)",
+    "Metadatos":null,
+    "Features":null,
+    "Observaciones":"Sistema legacy. Solo estilos. No migrado a variables. Buena cobertura efectos"
+  }
+]

@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dashboard de Benchmark de Design Systems
 
-## Getting Started
+Dashboard interactivo para visualizar y analizar el benchmark de sistemas de diseño y sus tokens.
 
-First, run the development server:
+## 🚀 Características
+
+- **Tarjetas de Estadísticas**: Métricas clave en tiempo real
+- **Tabla de Datos**: Vista completa y filtrable de todos los sistemas
+- **Vista Detallada**: Tarjetas individuales con toda la información de cada sistema
+- **Gráficos Interactivos**: Visualizaciones con Recharts
+  - Colecciones de variables por sistema
+  - Distribución de metadatos
+  - Soporte de Typography
+
+## 🛠️ Tecnologías
+
+- **Next.js 15** - Framework React
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Estilos
+- **Shadcn/ui** - Componentes UI
+- **Recharts** - Gráficos y visualizaciones
+
+## 📦 Instalación
+
+```bash
+npm install
+```
+
+## 🏃 Ejecutar en Desarrollo
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📊 Estructura
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+dashboard/
+├── app/
+│   └── page.tsx          # Página principal del dashboard
+├── components/
+│   ├── stats-cards.tsx   # Tarjetas de estadísticas
+│   ├── data-table.tsx    # Tabla de datos
+│   ├── charts.tsx        # Componentes de gráficos
+│   └── detail-view.tsx   # Vista detallada de sistemas
+├── data/
+│   └── data.json         # Datos del benchmark
+└── types.ts              # Tipos TypeScript
+```
 
-## Learn More
+## 🎨 Componentes Shadcn/ui Utilizados
 
-To learn more about Next.js, take a look at the following resources:
+- Card
+- Table
+- Badge
+- Tabs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Notas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Los datos se cargan desde `data/data.json`. Para actualizar los datos, edita ese archivo o reemplázalo con una nueva exportación del Excel.
