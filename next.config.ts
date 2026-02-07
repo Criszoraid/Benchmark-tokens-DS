@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/Benchmark-tokens-DS",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
